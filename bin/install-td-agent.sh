@@ -1,8 +1,8 @@
 #!/bin/bash
 wget http://packages.treasure-data.com/debian/RPM-GPG-KEY-td-agent
-apt-key add RPM-GPG-KEY-td-agent
-curl -L http://toolbelt.treasuredata.com/sh/install-ubuntu-precise.sh | sh
+sudo apt-key add RPM-GPG-KEY-td-agent
+curl -L https://toolbelt.treasuredata.com/sh/install-ubuntu-trusty-td-agent2.sh | sh
 
 # fluent-plugin-elasticsearchのインストール
 sudo apt-get install libcurl4-openssl-dev -y
-sudo /usr/lib/fluent/ruby/bin/fluent-gem install fluent-plugin-elasticsearch
+sudo /opt/td-agent/embedded/bin/fluent-gem install fluent-plugin-elasticsearch

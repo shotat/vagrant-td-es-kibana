@@ -2,9 +2,9 @@
 
 以下の環境を利用しています。
 
-* Vagrant 1.5.2
+* Vagrant 1.9.1
 * Ubuntu 14.04 LTS (Trusty Tahr)
-* td-agent 1.1.18 (Fluentd 0.10.45)
+* td-agent2 0.12.31 (Fluentd 0.15.2)
 * Elasticsearch 1.2.1
 * openjdk-7-jre-headless
 
